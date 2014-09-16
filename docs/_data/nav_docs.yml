@@ -1,38 +1,38 @@
-- title: Quick Start
+- title: 快速上手
   items:
   - id: getting-started
-    title: Getting Started
+    title: 入门教程
   - id: tutorial
-    title: Tutorial
+    title: 教程
   - id: thinking-in-react
-    title: Thinking in React
-- title: Community Resources
+    title: 用 React 思考
+- title: 社区资源
   items:
   - id: videos
-    title: Videos
+    title: 视频
   - id: complementary-tools
-    title: Complementary Tools
+    title: 补充工具
   - id: examples
-    title: Examples
+    title: 范例
 - title: Guides
   items:
   - id: why-react
-    title: Why React?
+    title: 为什么使用 React?
   - id: displaying-data
-    title: Displaying Data
+    title: 显示数据
     subitems:
     - id: jsx-in-depth
-      title: JSX in Depth
+      title: 深入 JSX
     - id: jsx-gotchas
-      title: JSX Gotchas
+      title: JSX 的误区
   - id: interactivity-and-dynamic-uis
     title: Interactivity and Dynamic UIs
   - id: multiple-components
     title: Multiple Components
   - id: reusable-components
-    title: Reusable Components
+    title: 可复用组件
   - id: forms
-    title: Forms
+    title: 表单
   - id: working-with-the-browser
     title: Working With the Browser
     subitems:
@@ -68,7 +68,7 @@
   - id: component-specs
     title: Component Specs and Lifecycle
   - id: tags-and-attributes
-    title: Supported Tags and Attributes
+    title: 标签和属性支持
   - id: events
     title: Event System
   - id: dom-differences

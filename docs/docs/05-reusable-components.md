@@ -1,6 +1,6 @@
 ---
 id: reusable-components
-title: Reusable Components
+title: 可复用组件
 permalink: reusable-components.html
 prev: multiple-components.html
 next: forms.html

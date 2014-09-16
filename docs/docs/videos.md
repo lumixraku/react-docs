@@ -1,6 +1,6 @@
 ---
 id: videos
-title: Videos
+title: 视频
 permalink: videos.html
 prev: thinking-in-react.html
 next: complementary-tools.html

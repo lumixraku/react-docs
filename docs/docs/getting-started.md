@@ -1,5 +1,5 @@
 ---
-id: getting-started-zh-CN
+id: getting-started
 title: 入门教程
 next: tutorial.html
 ---

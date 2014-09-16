@@ -1,18 +1,18 @@
 ---
 id: tags-and-attributes
-title: Tags and Attributes
+title: 标签和属性（Attributes）
 permalink: tags-and-attributes.html
 prev: component-specs.html
 next: events.html
 ---
 
-## Supported Tags
+## 支持的标签
 
-React attempts to support all common elements. If you need an element that isn't listed here, please file an issue.
+React 希望支持所有通用的标签. 如果你需要一个这里没有列出的标签, 请提交一个 Issue.
 
-### HTML Elements
+### HTML 标签
 
-The following HTML elements are supported:
+支持下列 HTML 标签：
 
 ```
 a abbr address area article aside audio b base bdi bdo big blockquote body br
@@ -25,31 +25,32 @@ source span strong style sub summary sup table tbody td textarea tfoot th
 thead time title tr track u ul var video wbr
 ```
 
-### SVG elements
+### SVG 标签
 
-The following SVG elements are supported:
+支持下列 SVG 标签:
 
 ```
 circle defs ellipse g line linearGradient mask path pattern polygon polyline
 radialGradient rect stop svg text tspan
 ```
 
-You may also be interested in [react-art](https://github.com/facebook/react-art), a drawing library for React that can render to Canvas, SVG, or VML (for IE8).
+你也许会对 [react-art](https://github.com/facebook/react-art) 感兴趣, 这是个 React 的绘图类库, 可以渲染 Canvas,
+SVG, or VML (用于 IE8).
 
 
-## Supported Attributes
+## 支持的属性
 
-React supports all `data-*` and `aria-*` attributes as well as every attribute in the following lists.
+React 支持所有 `data-*` 和 `aria-*` 属性后面罗列的每个属性.
 
-> Note:
+> 注意:
 >
-> All attributes are camel-cased and the attributes `class` and `for` are `className` and `htmlFor`, respectively, to match the DOM API specification.
+> 所有属性使用驼峰命名, 其中 `class` 和 ` for` 属性应该是 `className` 和 `htmlFor`, 分别对应 DOM API 规范.
 
-For a list of events, see [Supported Events](/react/docs/events.html).
+关于事件, 见[事件支持](/react/docs/events.html).
 
-### HTML Attributes
+### HTML 属性
 
-These standard attributes are supported:
+支持这些标准属性:
 
 ```
 accept accessKey action allowFullScreen allowTransparency alt async
@@ -64,15 +65,16 @@ seamless selected shape size span spellCheck src srcDoc srcSet start step
 style tabIndex target title type useMap value width wmode
 ```
 
-In addition, the following non-standard attributes are supported:
+另外, 支持后面这些非标准的属性:
 
-- `autoCapitalize autoCorrect` for Mobile Safari.
-- `property` for [Open Graph](http://ogp.me/) meta tags.
-- `itemProp itemScope itemType` for [HTML5 microdata](http://schema.org/docs/gs.html).
+- `autoCapitalize autoCorrect` 针对 Mobile Safari.
+- `property` 针对 [Open Graph](http://ogp.me/) meta 标签.
+- `itemProp itemScope itemType` 针对 [HTML5 microdata](http://schema.org/docs/gs.html).
 
-There is also the React-specific attribute `dangerouslySetInnerHTML` ([more here](/react/docs/special-non-dom-attributes.html)), used for directly inserting HTML strings into a component.
+还有一个 React 专用的属性 `dangerouslySetInnerHTML` ([更多](/react/docs/special-non-dom-attributes.html)),
+用于在组件当中直接插入 HTML.
 
-### SVG Attributes
+### SVG 属性
 
 ```
 cx cy d dx dy fill fillOpacity fontFamily fontSize fx fy gradientTransform

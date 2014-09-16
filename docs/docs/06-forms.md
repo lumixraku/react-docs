@@ -1,6 +1,6 @@
 ---
 id: forms
-title: Forms
+title: 表单
 permalink: forms.html
 prev: reusable-components.html
 next: working-with-the-browser.html
